@@ -11,7 +11,7 @@ var kuhong = db.get('ojan'); // jan diubah
 
 var creatorList = ['WolfCodeX - FoxyCodeX']; // Nama Lu Ngab
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)]; // Ini jan diubah
-var key = 'CodeXTeam' // Apikey Lu Ngab
+const listkey = ["CodeXBot","WolfCodeX","FoxyCodeX"];
 
 // Required Modules :
 var ffmpeg = require('fluent-ffmpeg');
